@@ -1,0 +1,164 @@
+body {
+  width: 100%;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header_top {
+  background-color: #222f3f;
+  padding: 10px 16px;
+}
+
+.header_top img {
+  width: 90px;
+}
+
+.header_nav {
+  background-color: #364757;
+  padding: 6px 16px;
+}
+
+.header_nav ul {
+  display: flex;
+  gap: 4px;
+  list-style: none;
+}
+
+.header_nav ul li a {
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.Gift_bar {
+  background-color: #f46501;
+  text-align: center;
+  padding: 8px 0;
+  margin: 25px 0px;
+}
+
+.Gift_bar p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Holiday_bann {
+  background-image: url("../images/bg-image.png");
+  background-size: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.Holiday {
+  text-align: center;
+}
+
+.Holiday h1 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.Holiday p {
+  color: #d4edda;
+  font-size: 15px;
+}
+
+.foto-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.foto-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+}
+
+.foto-header h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.foto-header a {
+  color: #007185;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.foto {
+  font-size: 0;
+}
+
+.foto img {
+  display: inline-block;
+  width: 22%;
+  height: 450px;
+
+  border-radius: 8px;
+  margin-right: 3%;
+}
+
+.vr-section {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.vr-section img {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+.vr-section .foto-header {
+  justify-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer_bootom {
+  text-align: center;
+  width: 100%;
+  background-color: #222f3f;
+  padding: 10px 16px;
+}
+.footer_bootom img {
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.footer {
+  text-align: center;
+  width: 100%;
+  background-color: #364757;
+  padding: 6px 16px;
+}
+.footer a {
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  display: block;
+  text-decoration: none;
+}
